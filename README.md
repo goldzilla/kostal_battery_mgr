@@ -12,4 +12,4 @@ This comes useful if you have a varying electricity price. It is possible to cha
 
 This script reads a specified file (by default called kostal_battery_state) and based on the contents of this file it updates the state of the inverter with Modbus. The idea is that you have another process or piece of software that you run once per hour from cron. That piece of software makes the decisions on how the battery should be operated and writes the state into the state file. The kostal_battery_poll.py just reads the state file and performs actions accordingly.
 
-I'm running a script that fetches the local electricity prices and schedules the usage of the battery accordingly. I call this script from cron every hour. The kostal_battery_poll.py is running constantly.
+I'm running a script that fetches the local electricity prices and schedules the usage of the battery accordingly. Your use case could be completely different. I call this script from cron every hour. The kostal_battery_poll.py, in turn, is running constantly and just acts as commanded by the scheduler script.
