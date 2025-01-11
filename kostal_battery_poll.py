@@ -15,13 +15,13 @@ INVERTER_PORT = "1502"
 # Define the path to the file
 STATE_FILE_PATH = "kostal_battery_state"
 
-# Charging power (percentage of inverter nominal power, enter a negative a number)
+# Charging power (percentage of inverter nominal power, enter a negative float)
 # For example:
-# Kostal Plenticore Plus 7.0, nominal power is 7 kW. CHARGE_POWER -0.85 means that
+# Kostal Plenticore Plus 7.0, nominal power is 7 kW. CHARGE_POWER -85.0 means that
 # battery will be charged with 7kW * 0.85 = 5.95 kW power.
 CHARGE_POWER = -85.0
 
-# Forced discharging power (percentage of inverter nominal power, enter a positive number)
+# Forced discharging power (percentage of inverter nominal power, enter a positive float)
 DISCHARGE_POWER = 85.0
 
 # time between operations
