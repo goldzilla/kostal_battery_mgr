@@ -1,5 +1,14 @@
 # kostal_battery_mgr
 
+# kostal_battery_mgr
+
+## setup
+1. check out repo
+2. pip install -r requirements.txt
+
+
+## original documentation
+
 Manage battery charging/discharging with Kostal Plenticore inverter with Modbus TCP. This script serves as a simple example that you can grow to your needs.
 
 Make sure you have enabled external battery control with Modbus in the inverter web user interface before trying.
