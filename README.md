@@ -5,6 +5,11 @@
 ## setup
 1. check out repo
 2. pip install -r requirements.txt
+3. for test reasons just execute the script to write the battery state file
+4. use cron
+
+     
+
 
 
 ## original documentation
